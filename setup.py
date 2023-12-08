@@ -1,4 +1,4 @@
-from distutils import setup
+from setuptools import setup
 REQUIRES = [
     'request',
     'structlog',
@@ -8,7 +8,7 @@ REQUIRES = [
 
 setup(
     name='restclient1',
-    version='0.0.1',
+    version='0.0.1.',
     packages=['restclient1'],
     url='https://github.com/July-vilh/restclient.git',
     license='MIT',
