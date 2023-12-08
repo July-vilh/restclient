@@ -8,7 +8,7 @@ REQUIRES = [
 
 setup(
     name='restclient',
-    version='0.0.1.',
+    version='0.0.1',
     packages=['restclient'],
     url='https://github.com/July-vilh/restclient.git',
     license='MIT',
