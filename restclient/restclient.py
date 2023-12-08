@@ -30,7 +30,7 @@ def allure_attach(fn):
 
 
 
-class restclient3:
+class Restclient:
     def __init__(self, host, headers=None):
         self.host = host
         self.session = session()
